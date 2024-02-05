@@ -34,6 +34,6 @@ body {
     cursor: pointer;
 }
 
-#accordion li + input[type='radio'] {
+#accordion label + input[type='radio'] {
     display: none;
 }
