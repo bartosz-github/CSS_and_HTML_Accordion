@@ -5,7 +5,6 @@
 }
 
 body {
-    /*background-color: slategray;*/
     background: goldenrod;
     font-family: sans-serif;
 }
@@ -35,12 +34,12 @@ body {
 }
 
 #accordion li label span {
-    transform: rotate(45deg);
+    transform: rotate(90deg);
     font-size: 22px;
     color: dodgerblue;
 }
 
-#accordion label + input[type='radio'] {
+#accordion label + input[type="radio"] {
     display: none;
 }
 
