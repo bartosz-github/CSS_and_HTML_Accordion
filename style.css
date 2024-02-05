@@ -35,7 +35,7 @@ body {
 }
 
 #accordion li label span {
-    transform: rotate(90deg);
+    transform: rotate(45deg);
     font-size: 22px;
     color: dodgerblue;
 }
@@ -43,3 +43,13 @@ body {
 #accordion label + input[type='radio'] {
     display: none;
 }
+
+
+#accordion content {
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
