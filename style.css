@@ -34,6 +34,12 @@ body {
     cursor: pointer;
 }
 
+#accordion li label span {
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: dodgerblue;
+}
+
 #accordion label + input[type='radio'] {
     display: none;
 }
