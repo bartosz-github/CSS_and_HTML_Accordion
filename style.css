@@ -44,7 +44,7 @@ body {
 }
 
 
-#accordion content {
+#accordion .content {
     padding: 0 10px;
     line-height: 26px;
     max-height: 0;
